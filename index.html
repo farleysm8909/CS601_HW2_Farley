@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="screen_general.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'>
+    <title>Sam Farley</title>
+  </head>
+  <body>
+    <header>
+      <!--I plan for this to have a different font/feel than other headings-->
+      <h2><a href="index.html">Sam Farley: Design &amp; Development</a></h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="navLink" id="home_icon"><img src="images/home.png" alt="home icon" height="20" width="24"></a></li>
+        <li><a href="about.html" class="navLink">About</a></li>
+        <li><a href="resume.html" class="navLink">Resume</a></li>
+        <li><a href="contact.html" class="navLink">Contact</a></li>
+        <div class="dropdown">
+          <li><a href="photography.html" class="navLink" id="work_btn">Work Samples</a></li>
+          <div class="dropdownContent">
+            <a href="photography.html">Photography</a>
+            <a href="videography.html">Videography</a>
+            <a href="websites.html">Websites</a>
+            <a href="graphics.html">Graphics</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <!--For each page, main contains everything in the body besides the header, nav, and footer-->
+    <main>
+      <h1>Sam Farley: Web Designer &amp; Developer</h1>
+      <section class="twoColLayout">
+        <section class="firstCol">
+          <p class="goalText">After recently graduating from the University of Wisconsin-Eau Claire with a degree in multimedia and web design, I am looking to enter the workforce as a web developer.</p>
+          <p class="goalText">I have dual interests in design and development and believe each cannot exist without the other. I am passionate about using languages&mdash;both human and computer&mdash;to better connect the world and its people. Ultimately, my goal is to strengthen global communication by improving the virtual landscape of an international company.</p>
+        </section>
+        <img src="images/rsz_img_2444.jpg" alt="Sam Farley wearing hat">
+      </section>
+      <section>
+        <h2>Multimedia Work Samples</h2>
+        <p>A collection of multimedia samples created by Sam Farley.</p>
+        <!--Using YouTube embed links instead of native video. I know you mentioned you don't like iframes, are they okay here or should I change this?-->
+        <figure>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1iP3O7Vjjlw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <figcaption>Cooking tutorial video made for the University of Wisconsin-Eau Claire student newspaper, <i>The Spectator</i>.</figcaption>
+        </figure>
+        <figure>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MieBoaDMp1A" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <figcaption>Photoshop tutorial video made for a multimedia class at the University of Wisconsin-Eau Claire.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Man_on_the_Moon_Photo_Project.jpg" alt="Photoshopped image of a man walking towards a giant moon with houses on it" width="560">
+          <figcaption>"Man on the Moon" Photoshop project for a photography class.</figcaption>
+        </figure>
+        <figure>
+          <img src ="images/TourDeItalia.jpg" alt="Photoshopped image of bike handlebars in Rome" width="560">
+          <figcaption>"Tour de Italia" Photoshop project for a visual rhetoric class.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Bowling_Website_Homepage_Compressed.jpg" alt="Bowling website homepage" width="560">
+          <figcaption>Bowling website design made for a web design class.</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      &copy; Sam Farley 2020
+      <p id="print_notice">Printed from: www.domainname.com</p>
+    </footer>
+  </body>
+</html>
