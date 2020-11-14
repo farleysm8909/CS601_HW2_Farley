@@ -9,3 +9,10 @@ How I went above and beyond
 
 Run the program
   Right click on index.html and select "open in default browser" or "open in other browsers" depending on which one you'd like to use. Coded in VS Code.
+
+
+WEEK 2
+
+How I went above and beyond
+- imported and used a Google font for header
+- 

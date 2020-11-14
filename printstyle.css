@@ -1,0 +1,32 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  display: none;
+}
+
+main {
+  margin: 0 90px;
+}
+
+footer {
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 0.8em;
+}
+
+#print_notice {
+  display: block;
+}
+
+.twoColLayout {
+  margin-bottom: 20px;
+}
+
+/* About.html */
+
+#hobbies_list {
+  margin-top: 20px;
+}
+

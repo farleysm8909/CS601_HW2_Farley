@@ -126,13 +126,14 @@ footer {
 .twoColLayout {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
-  /* align-items: center; can't decide if I like them centered better or not */
+  align-items: center;
 }
 
 .twoColLayout p, .twoColLayout img {
-  width: 600px;
+  width: 550px;
 }
 
 .firstCol {
