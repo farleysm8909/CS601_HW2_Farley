@@ -25,7 +25,6 @@
           <div class="dropdownContent">
             <a href="photography.html">Photography</a>
             <a href="videography.html">Videography</a>
-            <a href="websites.html">Websites</a>
             <a href="graphics.html">Graphics</a>
           </div>
         </div>
@@ -34,146 +33,154 @@
     <main>
       <h1>Resume</h1>
       <!--Not sure the best way to display resume, jpeg image reduced the quality. Do you have a suggestion?My other attempts are commented out below-->
-      <figure>
-        <iframe src="images/Farley_Samantha_Resume_2020.pdf" width="900" height="800"></iframe>
+      <figure id="resume_fig">
+        <iframe src="images/Farley_Samantha_Resume_2020.pdf"></iframe>
         <!--<a href="images/Farley_Samantha_Resume_2020.pdf" download>Download resume as PDF</a>-->
         <!--<a href="images/Farley_Samantha_Resume_2020.pdf" target="_blank">View in new tab</a>-->
         <figcaption>Resume for Sam Farley</figcaption>
       </figure>
-      <section>
+      <section class="twoColLayout">
         <!--I wasn't sure what to make for a table, but I decided on a table that shows all the languages/programs I know and how well I know them since my resume doesn't exactly tell you how well I know each of my digital skills-->
-        <h2>Language/Digital Skills</h2>
-        <table>
-          <caption>A closer look at the human/computer languages I know and how well I know them:</caption>
-          <thead>
-            <tr>
-              <th>Language</th>
-              <th>Years Studied</th>
-              <th>Used Outside of Classroom?</th>
-              <th>Rank</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HTML5</td>
-              <td>4</td>
-              <td>Yes</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>CSS3</td>
-              <td>4</td>
-              <td>Yes</td>
-              <td>2</td>
-            </tr> 
-            <tr>
-              <td>Spanish</td>
-              <td>8</td>
-              <td>Yes</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>Adobe Photoshop</td>
-              <td>5</td>
-              <td>Yes</td>
-              <td>4</td>
-            </tr>
-            <tr>
-              <td>Adobe Illustrator</td>
-              <td>4</td>
-              <td>Yes</td>
-              <td>5</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>3</td>
-              <td>Yes</td>
-              <td>6</td>
-            </tr>
-            <tr>
-              <td>Adobe Premiere Pro</td>
-              <td>3</td>
-              <td>Yes</td>
-              <td>7</td>
-            </tr>
-            <tr>
-              <td>Adobe InDesign</td>
-              <td>2</td>
-              <td>Yes</td>
-              <td>9</td>
-            </tr>
-            <tr>
-              <td>Java</td>
-              <td>1</td>
-              <td>No</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>Command Line (Bash/PuTTY)</td>
-              <td>1</td>
-              <td>Yes</td>
-              <td>11</td>
-            </tr>
-            <tr>
-              <td>C</td>
-              <td>0.5</td>
-              <td>No</td>
-              <td>12</td>
-            </tr>
-            <tr>
-              <td>SQL (Oracle)</td>
-              <td>0.5</td>
-              <td>No</td>
-              <td>13</td>
-            </tr>
-            <tr>
-              <td>Adobe XD</td>
-              <td>0.5</td>
-              <td>Yes</td>
-              <td>14</td>
-            </tr>
-            <tr>
-              <td>Adobe Audition</td>
-              <td>1</td>
-              <td>No</td>
-              <td>15</td>
-            </tr>
-            <tr>
-              <td>C++</td>
-              <td>0.5</td>
-              <td>No</td>
-              <td>16</td>
-            </tr>
-            <tr>
-              <td>ReactJS</td>
-              <td>0.5</td>
-              <td>No</td>
-              <td>17</td>
-            </tr>
-            <tr>
-              <td>PHP</td>
-              <td>0.5</td>
-              <td>No</td>
-              <td>18</td>
-            </tr>
-            <tr>
-              <td>ExpressJS</td>
-              <td>0.5</td>
-              <td>No</td>
-              <td>19</td>
-            </tr>
-            <tr>
-              <td>German</td>
-              <td>0.5</td>
-              <td>No</td>
-              <td>20</td>
-            </tr>
-          </tbody>
-        </table>
-        <figure>
-          <img src="images/markus-spiske-L2cxSuKWbpo-unsplash.jpg" alt="computer code" width="560">
-          <figcaption>Photo courtesy of Markus Spiske from Unsplash.com</figcaption>
-        </figure>
+        <section class="twoColItem">
+          <h2>Language/Digital Skills</h2>
+          <table id="language_table">
+            <caption>A closer look at the human/computer languages I know and how well I know them:</caption>
+            <thead>
+              <tr>
+                <th>Language</th>
+                <th>Years Studied</th>
+                <th>Used Outside of Class?</th>
+                <th>Rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML5</td>
+                <td>4</td>
+                <td>Yes</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+                <td>4</td>
+                <td>Yes</td>
+                <td>2</td>
+              </tr> 
+              <tr>
+                <td>Spanish</td>
+                <td>8</td>
+                <td>Yes</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Adobe Photoshop</td>
+                <td>5</td>
+                <td>Yes</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Adobe Illustrator</td>
+                <td>4</td>
+                <td>Yes</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>3</td>
+                <td>Yes</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Adobe Premiere Pro</td>
+                <td>3</td>
+                <td>Yes</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>Adobe InDesign</td>
+                <td>2</td>
+                <td>Yes</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+                <td>1</td>
+                <td>No</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Command Line (Bash/PuTTY)</td>
+                <td>1</td>
+                <td>Yes</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <td>SQL (Oracle)</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>Adobe XD</td>
+                <td>0.5</td>
+                <td>Yes</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>Adobe Audition</td>
+                <td>1</td>
+                <td>No</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>C++</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>ReactJS</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>PHP</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>ExpressJS</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>German</td>
+                <td>0.5</td>
+                <td>No</td>
+                <td>20</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="twoColItem" id="language_graphics">
+          <aside class="quoteContainer">
+            <p>&ldquo;To learn a language is to have one more window from which to look at the world.&rdquo;</p>
+            <p class="quoteAuthor">&mdash;Chinese Proverb</p>
+          </aside>
+          <figure>
+            <img src="images/markus-spiske-L2cxSuKWbpo-unsplash.jpg" alt="computer code" id="code_img">
+            <figcaption>Photo courtesy of Markus Spiske from Unsplash.com</figcaption>
+          </figure>
+        </section>
       </section>
     </main>
     <footer>

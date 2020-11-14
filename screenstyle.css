@@ -1,4 +1,4 @@
-/*-----------Header-----------*/
+/*-----------------Header-----------------*/
 
 header {
   text-align: center;
@@ -14,7 +14,7 @@ header > h2 > a {
   color: black;
 }
 
-/*-----------Navigation-----------*/
+/*-----------------Navigation-----------------*/
 
 nav {
   background-color: #72ade6;
@@ -48,11 +48,9 @@ nav > ul > li {
   margin-top: -5px;
 }
 
-.navLink:hover {
+.navLink:hover, .navLink:focus {
   color: #FFFFFF;
 }
-
-/* how to style a nav link that is active? */
 
 /*-------Work Samples Dropdown Menu-------*/
 
@@ -93,7 +91,7 @@ nav > ul > li {
   color: #FFFFFF;
 }
 
-/*-----------Basic Selectors Inside Body-----------*/
+/*-----------------Basic Selectors in Body-----------------*/
 
 body {
   font-family: Arial, sans-serif;
@@ -124,7 +122,7 @@ footer {
   color: white;
 }
 
-/*-----------Specific Classes/ID's-----------*/
+/*-----------------Specific Classes/ID's-----------------*/
 
 #print_notice {
   display: none;
@@ -138,24 +136,23 @@ footer {
   /* align-items: center; not sure if I like this better or not */
 }
 
-
 .twoColItem {
   margin-bottom: 30px;
   width: 560px;
 }
 
 .twoColItem img {
-  width: 550px;
+  width: 560px;
 }
 
 
-/*-----------Index.html-----------*/
+/*-----------------Index.html-----------------*/
 
 .goalText {
   font-size: 1.2em;
 }
 
-/*-----------About.html-----------*/
+/*-----------------About.html-----------------*/
 figure {
   margin: 0;
 }
@@ -164,7 +161,59 @@ figure {
   line-height: 1.5em;
 }
 
-/*-----------Photography.html-----------*/
+/*-----------------Resume.html-----------------*/
+
+#resume_fig {
+  margin-bottom: 50px;
+}
+
+#resume_fig iframe {
+  width: 100%;
+  height: 800px;
+  margin-bottom: 10px;
+}
+
+#language_table th {
+  color: #257cd1;
+  width: 140px;
+}
+
+#language_table td {
+  text-align: center;
+}
+
+#language_graphics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quoteContainer {
+  margin-top: 30px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quoteContainer p {
+  padding: 5px 10px;
+  font-family: "Be Vietnam", Arial, sans-serif;
+  font-size: 1.2em;
+  color: #257cd1;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.quoteAuthor {
+  text-align: center;
+}
+
+#code_img {
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+/*-----------------Photography.html-----------------*/
 
 .galleryContainer {
   display: flex;
@@ -173,20 +222,33 @@ figure {
   justify-content: space-between;
 }
 
-/* Add space between rows of images */
 .galFigures {
-  margin-bottom: 50px;
+  margin-bottom: 50px; /* Add space between rows of images */
 }
 
-/* Add space between image and caption */
 .galFigures img {
-  padding-bottom: 5px;
+  padding-bottom: 10px; /* Add space between image and caption */
 }
 
-/* videography.html */
+
+/*-----------------Videography.html-----------------*/
 
 .vidFig {
   margin-bottom: 30px;
   width: 580px;
 }
+
+
+/*-----------------Graphics.html-----------------*/
+
+.graphicsFig {
+  margin-bottom: 30px;
+  width: 580px;
+}
+
+.graphicsFig img {
+  width: 580px;
+}
+
+
 

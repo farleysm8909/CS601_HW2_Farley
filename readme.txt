@@ -16,3 +16,5 @@ WEEK 2
 How I went above and beyond
 - imported and used a Google font for header
 - 
+
+Note: I did not format the resume iframe differently for the print version because the iframe provides an option to print the resume as a separate document (this makes more sense to me since the resume itself is exactly one page and it is a stand-alone item)
