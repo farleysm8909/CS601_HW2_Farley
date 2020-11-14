@@ -34,14 +34,17 @@
       <h1>Contact</h1>
       <p>Let's get in touch!</p>
       <form>
-        <input type="text" placeholder="Enter your first name">
-        <input type="text" placeholder="Enter your last name">
-        <input type="text" placeholder="Enter your email address">
-        <input type="text" placeholder="Enter your phone number">
-        <input type="submit" value="submit">
+        <section class="textboxesContainer">
+          <input type="text" placeholder="Enter your first name" class="textbox">
+          <input type="text" placeholder="Enter your last name" class="textbox">
+          <input type="text" placeholder="Enter your email address" class="textbox">
+          <input type="text" placeholder="Enter your phone number" class="textbox">
+        </section>
+        <textarea placeholder="Enter your message" id="textarea" rows="4" cols="50"></textarea>
+        <input type="submit" value="submit" id="submit_button">
       </form>
-      <figure>
-        <img src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" alt="Hands on a keyboard" width="800">
+      <figure id="contact_fig">
+        <img src="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" alt="Hands on a keyboard">
         <figcaption>Photo courtesy of Glenn Carstens-Peters from Unsplash.com</figcaption>
       </figure>
     </main>
