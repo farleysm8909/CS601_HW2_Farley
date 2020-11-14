@@ -1,7 +1,4 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
+/*-----------Header-----------*/
 
 header {
   text-align: center;
@@ -43,7 +40,6 @@ nav > ul > li {
   padding-bottom: 13px;
 } 
 
-/* nav > ul > li > a */
 .navLink {
   display: inline-block;
   text-decoration: none;
@@ -56,8 +52,12 @@ nav > ul > li {
   color: #FFFFFF;
 }
 
-/*-----------Work Samples Dropdown Menu-----------*/
-/* Code inspired by W3Schools: https://www.w3schools.com/howto/howto_css_dropdown.asp */
+/* how to style a nav link that is active? */
+
+/*-------Work Samples Dropdown Menu-------*/
+
+/* Code modified from a W3Schools example: 
+   https://www.w3schools.com/howto/howto_css_dropdown.asp */
 
 .dropdown {
   position: relative;
@@ -70,7 +70,6 @@ nav > ul > li {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 lightgrey;
-  margin-top: 2px;
 }
 
 .dropdownContent a {
@@ -94,6 +93,13 @@ nav > ul > li {
   color: #FFFFFF;
 }
 
+/*-----------Basic Selectors Inside Body-----------*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
 h1, nav, footer {
   font-family: "Be Vietnam", Arial, sans-serif;
 }
@@ -108,7 +114,7 @@ h2 {
 }
 
 main {
-  margin: 0 150px;
+  margin: 0 150px; /* better to set max-width then set margins to auto? */
 }
 
 footer {
@@ -118,47 +124,47 @@ footer {
   color: white;
 }
 
+/*-----------Specific Classes/ID's-----------*/
+
 #print_notice {
   display: none;
 }
 
-/* Index.html */
 .twoColLayout {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 50px;
-  align-items: center;
+  /* align-items: center; not sure if I like this better or not */
 }
 
-.twoColLayout p, .twoColLayout img {
+
+.twoColItem {
+  margin-bottom: 30px;
+  width: 560px;
+}
+
+.twoColItem img {
   width: 550px;
 }
 
-.firstCol {
-  margin-right: 50px;
-  width: 600px;
-}
+
+/*-----------Index.html-----------*/
 
 .goalText {
   font-size: 1.2em;
 }
 
-/* About.html */
+/*-----------About.html-----------*/
 figure {
   margin: 0;
-}
-
-#hobbies_container {
-  justify-content: flex-start;
 }
 
 .spacedList {
   line-height: 1.5em;
 }
 
-/* photography.html */
+/*-----------Photography.html-----------*/
 
 .galleryContainer {
   display: flex;
@@ -167,12 +173,20 @@ figure {
   justify-content: space-between;
 }
 
+/* Add space between rows of images */
 .galFigures {
   margin-bottom: 50px;
 }
 
+/* Add space between image and caption */
 .galFigures img {
   padding-bottom: 5px;
 }
 
+/* videography.html */
+
+.vidFig {
+  margin-bottom: 30px;
+  width: 580px;
+}
 
