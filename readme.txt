@@ -30,6 +30,9 @@ How I went above and beyond
   6) Added print message/notice at the bottom
   7) Hid resume and replaced it with print instructions; I decided that since the iframe offers its own way to print out the document and since the resume is itself a perfect page, it didn't make sense to print it out with the webpage since the header and h1 would push some of the resume down and disrupt its original look). Please let me know if you'd like for me to handle this differently, but this made the most sense to me.
   8) Tweaked other margins as necessary
+- Spent a lot of time trying to produce a well-formatted, interesting website this week so I (hopefully) don't have as much work to do towards the end of the semester when I will be much busier with my jobs
 
-
+Please note the following:
+- I have not finished adding content to all pages, especially those under Work Samples.
+- I decided to leave the contact form on the print version; I wasn't sure what is best practice here since the entire page revolves around that digital form. Let me know if you'd like me to hide it instead since it obviously isn't much use on a printed page.
 
