@@ -7,6 +7,8 @@
     <link href="printstyle.css" rel="stylesheet" media="print">
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
     <title>Resume</title>
   </head>
   <body>
@@ -32,8 +34,9 @@
     </nav>
     <main>
       <h1>Resume</h1>
+      <p class="printAdd">Please print the resume using the print button provided in the upper right corner of the resume container.</p>
       <!--Not sure the best way to display resume, jpeg image reduced the quality. Do you have a suggestion?My other attempts are commented out below-->
-      <figure id="resume_fig">
+      <figure id="resume_fig" class="printRemove">
         <iframe src="images/Farley_Samantha_Resume_2020.pdf"></iframe>
         <!--<a href="images/Farley_Samantha_Resume_2020.pdf" download>Download resume as PDF</a>-->
         <!--<a href="images/Farley_Samantha_Resume_2020.pdf" target="_blank">View in new tab</a>-->
